@@ -1,0 +1,116 @@
+/* Custom styling to achieve the ROG gaming aesthetic */
+
+.rog-footer {
+    background-color: #111111;
+    font-family: 'Arial Black', Gadget, sans-serif; /* Aggressive sans-serif look */
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.rog-footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+/* Red accent highlight color on link hover */
+.rog-footer a:hover {
+    color: #ff0033; 
+}
+
+/* Custom Red Sign-Up Button */
+.btn-rog {
+    background-color: #ff0033;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0; /* Ensures clean sharp geometric corners */
+}
+
+.btn-rog:hover {
+    background-color: #cc0029;
+    color: white;
+}
+
+/* Dark Grey Custom Email Form Input */
+.form-control-rog {
+    background-color: #222222;
+    border: 1px solid #444444;
+    color: white;
+    border-radius: 0;
+}
+
+.form-control-rog:focus {
+    background-color: #2a2a2a;
+    border-color: #ff0033;
+    color: white;
+    box-shadow: none;
+}
+
+/* Thin stylized divider border line */
+.rog-divider {
+    border-top: 1px solid #333333;
+}
+
+/* Color utility for secondary muted grey text elements */
+.text-muted-rog {
+    color: #888888 !important;
+}
+
+
+/* this make the smooth sroling */
+:root {
+    scroll-behavior: smooth;
+}
+
+/* Navbar color text */
+.navbar .nav-link.active {
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-link {
+    color: white ;
+    font-weight: bold;
+}
+
+/* kleng kae color bos option symbol */
+.navbar-toggler {
+    border: white;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* color search */
+.btn-search {
+    background-color: #ff0033;
+    color: white;
+    border: 1px solid #ff0033;
+    font-weight: bold;
+}
+
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:active {
+    background-color: #d6002b;
+    border-color: #d6002b;
+    color: white;
+    box-shadow: none;
+}
+
+/* picture in card */
+.product-img {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
